@@ -5,11 +5,6 @@ The 8-Puzzle Solver is a Java-based implementation of the A* algorithm designed 
 
 ---
 
-## **Problem**
-The 8-puzzle problem is a sliding puzzle that challenges players to move numbered tiles into a predefined goal configuration. Solving it requires a systematic approach to explore possible moves while minimizing the number of steps. The challenge lies in balancing computational efficiency and accuracy in estimating the cost to reach the solution.
-
----
-
 ## **Approach**
 1. **A* Algorithm**: A widely used pathfinding algorithm that evaluates nodes using the formula `f(n) = g(n) + h(n)`, where:
    - `g(n)` is the cost to reach the current node.
