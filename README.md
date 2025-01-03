@@ -31,14 +31,15 @@ The 8-puzzle problem is a sliding puzzle that challenges players to move numbere
 2. Compile all `.java` files using your preferred Java IDE
 3. Run the main program: EightPuzzleSolver.java
 4. Follow the on-screen prompts:
-- Enter a valid puzzle string (e.g., 152764038).
-- Specify the solution depth (between 2 and 20).
-- Choose a heuristic: [1] H1 (Misplaced Tiles) or [2] H2 (Manhattan Distance)
+   - Enter a valid puzzle in a 3x3 grid format.
+   - Choose a heuristic: [1] H1 (Misplaced Tiles) or [2] H2 (Manhattan Distance).
 
 ## **How to Test**
 1. Run the program with various yesy puzzles of different solution depths.
 2. Use puzzles with known solution paths to verify the correctness of the results.
 3. Compare the performance of **Misplaced Tiles** and **Manhattan Distance** heuristics by observing: the number of nodes expanded or the time taken to find the solution.
+
+---
 
 ## **File Structure**
 - AStarSolver.java: Implements the A* algorithm to solve the 8-puzzle problem.
